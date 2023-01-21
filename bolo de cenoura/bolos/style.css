@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: bold;
+    src: url(../Fonts/Cocogoose\ Pro-trial.ttf) format(truetype);
+}
+:root {
+    --cor01: #EB5C03;
+    --cor02: #6B3E21;
+    --cor03: #B84802;
+    --cor04: #6B2A01;
+    --cor04: #EE894A;
+    --font: bold;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ab856dc4;
+    font-family: var(--font);
+}
+header {
+    background-image: linear-gradient(to top,#502e16,  #9d6035);
+    padding-bottom: 35px;
+    
+
+}
+
+header h1 {
+    color: var(--cor04);
+    text-shadow: 3px 3px 5px rgb(0 0 0 / 79%);
+    text-align: center;
+    transition-duration: 1s;
+}
+
+header h1:hover {
+    color: white;
+}
