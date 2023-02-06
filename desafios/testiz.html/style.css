@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: beach;
+    src: url(Fonts/beach_4/Beach.ttf) format(truetype);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: beach;
+}
+
+body {
+    background-color: #5c91c29f;
+}
+header {
+    
+   background-color: #4a769f;
+   background-image: linear-gradient(to bottom, #4a769f, #304c67);
+}
+
+header > center> img {
+    width: 250px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-radius: 100%;
+    border: 2px solid black.
+}
+
+
+div.logo {
+    width: 200px;
+    height: 150px;
+    margin: auto;
+    background-image: url(img/Ocean_Blue-removebg-preview.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    
+}
+
+
+header > img {
+
+}
+div.logo {
+    width: 200px;
+    height: 150px;
+    margin: auto;
+    background-image: url(img/Ocean_Blue-removebg-preview.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    
+    
+}
+nav {
+    background-color: #0a1520;
+    padding: 4px;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    padding: 12px;
+    font-family: sans-serif;
+}
+
+nav > a:hover {
+    background-color: white;
+    padding: 2px;
+    color: black;
+    border-radius: 5px;
+}
+main {
+    
+    background-color: #61b0fbae;
+    border-radius: 8px;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-image: url(img/mar\ aberto.jpg);
+    background-size: 100%;
+}
+
+article {
+    height: 800px ;
+}
+article > h1 {
+    text-align: center;
+    color: #1e364b;
+    text-shadow:3px 3px 3px  rgba(255, 255, 255, 0.432);
+    font-family: beach;
+    font-size: 60px;
+    transition-duration: 0.5s;
+    
+}
+
+article > h1:hover {
+    font-size: 70px;
+    }
+article > h2 {
+    text-align: center;
+    color: #1e364b;
+    text-shadow:3px 3px 3px  rgba(255, 255, 255, 0.432);
+    font-family: beach;
+    font-size: 30px;
+    margin-top: 15px;
+    text-decoration: overline;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    
+}
+
+article > center > img {
+    border-radius: 5px;
+}
+
+div.quadrado {
+    width: 800px;
+    height: 300px;
+    background-color: black;
+    margin: auto;
+    background-image: url(img/colaazz.jpg);
+    background-size: 100%;
+    border-radius: 8px;
+    box-shadow:3px 3px 3px  rgba(255, 255, 255, 0.432);;
+    transition-duration: 0.5s;
+    border: 6px solid rgba(0, 0, 0, 0.81);
+
+}
+
+
+
+
+div.quadrado:hover{
+    border-radius: 40px;
+    width: 810px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+   background-color: rgb(0, 0, 0);
+}
